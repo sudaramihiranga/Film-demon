@@ -2,7 +2,7 @@ const { cmd, commands } = require("../command");
 
 cmd(
   {
-    pattern: "menu",
+    pattern: "/sudra",
     desc: "Displays all available commands",
     category: "main",
     filename: __filename,
